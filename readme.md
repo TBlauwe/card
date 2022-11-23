@@ -5,7 +5,7 @@ Small latex package to write colored box with icons (using tcolorbox and fontawe
 
 # Installation
 * Add `card.sty` to your latex project
-* Need a least package : `\usepackage[dvipsnames]{xcolor}`
+* Need at least following package : `\usepackage[dvipsnames]{xcolor}`
 * Add as a regular package : `\usepackage{card}`
 
 # Usage 
