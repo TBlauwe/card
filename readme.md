@@ -1,6 +1,7 @@
 Small latex package to write colored box with icons (using tcolorbox and fontawesome)
 
-![](preview.png)
+![](preview_1.png)
+![](preview_2.png)
 
 # Installation
 * Add card.sty to your latex project
