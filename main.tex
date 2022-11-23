@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{card}
+\usepackage{blindtext} % for random text in box
+
+\begin{thebibliography}{9}
+\bibitem{texbook}
+Donald E. Knuth (1986) \emph{The \TeX{} Book}, Addison-Wesley Professional.
+
+\bibitem{lamport94}
+Leslie Lamport (1994) \emph{\LaTeX: a document preparation system}, Addison
+Wesley, Massachusetts, 2nd ed.
+\end{thebibliography}
+
+\begin{document}
+        \begin{card}[note][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[note]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \begin{card}[check][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[check]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \begin{card}[info][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[info]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \begin{card}[warning][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[warning]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \begin{card}[error][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[error]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \begin{card}[idea][H2.2 vérifiée]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+
+        \begin{card}[idea]
+            $P = 1.30 > \neg P = -1.02 (p < 0.001 < \alpha = 0.05)$  
+        \end{card}
+        
+        \citecard{texbook}{\blindtext}
+        \citecard*{lamport94}{\blindtext}
+        \citecard[Mon titre]{texbook}{\blindtext}
+        \citecard*[Mon titre]{lamport94}{\blindtext}
+\end{document}
